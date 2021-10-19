@@ -1,0 +1,241 @@
+[
+    {
+        "name": "Arsenal",
+        "image": "https://media.api-sports.io/football/teams/42.png",
+        "stadion": "Emirates Stadium",
+        "country": "England"
+    },
+    {
+        "name": "Aston Villa",
+        "image": "https://media.api-sports.io/football/teams/66.png",
+        "stadion": "Villa Park",
+        "country": "England"
+    },
+    {
+        "name": "Brentford",
+        "image": "https://media.api-sports.io/football/teams/55.png",
+        "stadion": "Brentford Community Stadium",
+        "country": "England"
+    },
+    {
+        "name": "Brighton and Hove Albion",
+        "image": "https://media.api-sports.io/football/teams/51.png",
+        "stadion": "Amex Stadium",
+        "country": "England"
+    },
+    {
+        "name": "Burnley",
+        "image": "https://media.api-sports.io/football/teams/44.png",
+        "stadion": "Turf Moor",
+        "country": "England"
+    },
+    {
+        "name": "Chelsea",
+        "image": "https://media.api-sports.io/football/teams/49.png",
+        "stadion": "Stamford Bridge",
+        "country": "England"
+    },{
+        "name": "Crystal Palace",
+        "image": "https://media.api-sports.io/football/teams/52.png",
+        "stadion": "Selhurst Park",
+        "country": "England"
+    },
+    {
+        "name": "Everton",
+        "image": "https://media.api-sports.io/football/teams/45.png",
+        "stadion": "Goodison Park",
+        "country": "England"
+    },
+    {
+        "name": "Leeds United",
+        "image": "https://media.api-sports.io/football/teams/63.png",
+        "stadion": "Elland Road",
+        "country": "England"
+    },
+    {
+        "name": "Leicester City",
+        "image": "https://media.api-sports.io/football/teams/46.png",
+        "stadion": "King Power Stadium",
+        "country": "England"
+    },
+    {
+        "name": "Liverpool",
+        "image": "https://media.api-sports.io/football/teams/40.png",
+        "stadion": "Anfield",
+        "country": "England"
+    },
+    {
+        "name": "Manchaster City",
+        "image": "https://media.api-sports.io/football/teams/50.png",
+        "stadion": "Etihad Stadium",
+        "country": "England"
+    },
+    {
+        "name": "Manchaster United",
+        "image": "https://media.api-sports.io/football/teams/33.png",
+        "stadion": "Old Trafford",
+        "country": "England"
+    },
+    {
+        "name": "Newcestle United",
+        "image": "https://media.api-sports.io/football/teams/34.png",
+        "stadion": "St.James'Park",
+        "country": "England"
+    },
+    {
+        "name": "Norwich City",
+        "image": "https://media.api-sports.io/football/teams/71.png",
+        "stadion": "Carrow Road",
+        "country": "England"
+    },
+    {
+        "name": "Southampton",
+        "image": "https://media.api-sports.io/football/teams/41.png",
+        "stadion": "St.Mary's Stadium",
+        "country": "England"
+    },
+    {
+        "name": "Tottenham Hotspur",
+        "image": "https://media.api-sports.io/football/teams/47.png",
+        "stadion": "Tottenham Hotspur Stadium",
+        "country": "England"
+    },
+    {
+        "name": "Watford",
+        "image": "https://media.api-sports.io/football/teams/38.png",
+        "stadion": "Vicarage Road",
+        "country": "England"
+    },
+    {
+        "name": "West Ham United",
+        "image": "https://media.api-sports.io/football/teams/48.png",
+        "stadion": "London Stadium",
+        "country": "England"
+    },
+    {
+        "name": "Wolverhampton Wanderers",
+        "image": "https://media.api-sports.io/football/teams/39.png",
+        "stadion": "Molineux Stadium",
+        "country": "England"
+    },
+    {
+        "name": "Real Sociedad",
+        "image": "https://media.api-sports.io/football/teams/548.png",
+        "stadion": "Reale Arena",
+        "country": "Spain"
+    },
+    {
+        "name": "Real Madrid",
+        "image": "https://media.api-sports.io/football/teams/541.png",
+        "stadion": "Estadio Santiago Bernabeu",
+        "country": "Spain"
+    },
+    {
+        "name": "Sevilla FC",
+        "image": "https://media.api-sports.io/football/teams/536.png",
+        "stadion": "Ramoz Sanchez-Pizjuan",
+        "country": "Spain"
+    },
+    {
+        "name": "Atletico de Madrid",
+        "image": "https://media.api-sports.io/football/teams/530.png",
+        "stadion": "Wanda Metropolitano",
+        "country": "Spain"
+    },
+    {
+        "name": "CA Osasuna",
+        "image": "https://media.api-sports.io/football/teams/727.png",
+        "stadion": "Estadio El Sadar",
+        "country": "Spain"
+    },
+    {
+        "name": "Rayo Vallecano",
+        "image": "https://media.api-sports.io/football/teams/728.png",
+        "stadion": "Estadio de Vallecaz",
+        "country": "Spain"
+    },
+    {
+        "name": "FC Barcelona",
+        "image": "https://media.api-sports.io/football/teams/529.png",
+        "stadion": "Camp Nou",
+        "country": "Spain"
+    },
+    {
+        "name": "Real Betis",
+        "image": "https://media.api-sports.io/football/teams/543.png",
+        "stadion": "Estadio Benito Villamarin",
+        "country": "Spain"
+    },
+    {
+        "name": "Athletic Club",
+        "image": "https://media.api-sports.io/football/teams/531.png",
+        "stadion": "Estadio San Mamez",
+        "country": "Spain"
+    },
+    {
+        "name": "Valencia CF",
+        "image": "https://media.api-sports.io/football/teams/532.png",
+        "stadion": "Camp de Mestalla",
+        "country": "Spain"
+    },
+    {
+        "name": "RCD Espanyol",
+        "image": "https://media.api-sports.io/football/teams/540.png",
+        "stadion": "RCDE Stadium",
+        "country": "Spain"
+    },
+    {
+        "name": "Villareal CF",
+        "image": "https://media.api-sports.io/football/teams/533.png",
+        "stadion": "Estadio de la Ceramica",
+        "country": "Spain"
+    },
+    {
+        "name": "RCD Mallorca",
+        "image": "https://media.api-sports.io/football/teams/798.png",
+        "stadion": "Visit Mallorca Estadi",
+        "country": "Spain"
+    },
+    {
+        "name": "Elche CF",
+        "image": "https://media.api-sports.io/football/teams/797.png",
+        "stadion": "Estadio Martinez Valero",
+        "country": "Spain"
+    },
+    {
+        "name": "RC Celta",
+        "image": "https://media.api-sports.io/football/teams/538.png",
+        "stadion": "Estadio Abanca Balaidos",
+        "country": "Spain"
+    },
+    {
+        "name": "Cadiz CF",
+        "image": "https://media.api-sports.io/football/teams/724.png",
+        "stadion": "Estadio Nuevo Mirandilla",
+        "country": "Spain"
+    },
+    {
+        "name": "Granada CF",
+        "image": "https://media.api-sports.io/football/teams/715.png",
+        "stadion": "Nuevo Los Carmanes",
+        "country": "Spain"
+    },
+    {
+        "name": "Levante UD",
+        "image": "https://media.api-sports.io/football/teams/539.png",
+        "stadion": "Estadio Ciutat de Valencia",
+        "country": "Spain"
+    },
+    {
+        "name": "Deportivo Alaves",
+        "image": "https://media.api-sports.io/football/teams/542.png",
+        "stadion": "Mendizorozza",
+        "country": "Spain"
+    },
+    {
+        "name": "Gettafe CF",
+        "image": "https://media.api-sports.io/football/teams/546.png",
+        "stadion": "Coliseum Alfonso Perez",
+        "country": "Spain"
+    }
+]
