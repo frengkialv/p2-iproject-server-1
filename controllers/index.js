@@ -12,7 +12,7 @@ class indexConttroller{
                 category: 'sports',
             }
             const foundNews = await axios.get('https://newsapi.org/v2/top-headlines', {params: param})
-            const result = foundNews.data
+            const result = foundNews.data.articles
             res.status(200).json(result)
         } catch (err) {
             next(err)
@@ -29,7 +29,7 @@ class indexConttroller{
                 "x-rapidapi-key": "0bd8a669b0dfe43d748248fdc429295a",
             }
             const foundTable = await axios.get('https://v3.football.api-sports.io/standings', {params: param, headers: header})
-            const result = foundTable.data
+            const result = foundTable.data.response[0].league.standings[0]
             res.status(200).json(result)
         } catch (err) {
             next(err)
@@ -46,7 +46,7 @@ class indexConttroller{
                 "x-rapidapi-key": "0bd8a669b0dfe43d748248fdc429295a",
             }
             const foundTable = await axios.get('https://v3.football.api-sports.io/standings', {params: param, headers: header})
-            const result = foundTable.data
+            const result = foundTable.data.response[0].league.standings[0]
             res.status(200).json(result)
         } catch (err) {
             next(err)
@@ -60,8 +60,11 @@ class indexConttroller{
                 where: {email}
             })
             if(foundUser){
+                
                 res.status(400).json({msg: "Email already registered"})
+
             }
+            console.log("test");
             const result = await User.create({ email, password })
             res.status(201).json(result)
         } catch (err) {
@@ -89,10 +92,10 @@ class indexConttroller{
                     })
                     res.status(200).json( {access_token} )
                 } else {
-                    res.status(401).json( { msg: "Email & password doesn't match" } )
+                    res.status(401).json( { msg: "Email / password doesn't match" } )
                 }
             } else {
-                res.status(401).json( { msg: "Email & password doesn't match" } )
+                res.status(401).json( { msg: "Email / password doesn't match" } )
             }
         } catch (err) {
             next(err);
@@ -117,7 +120,7 @@ class indexConttroller{
                     }
                 })
                 if (foundBookmark) {
-                    res.status(401).json({msg: "You have bookmarked this club"})
+                    res.status(400).json({msg: "You have bookmarked this club"})
                 } else {
                     const result = await Bookmark.create( { ClubId, UserId } )
                     res.status(201).json(result)
